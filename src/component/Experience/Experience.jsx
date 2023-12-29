@@ -30,7 +30,7 @@ function Experience() {
                 </div>
                 <div>
                     <p className='text-white font-bold text-3xl text-left'>Samudera Aplikasi</p>
-                    <p className='text-white text-xl text-left'>Full Time - Full Stack Developer </p>
+                    <p className='text-white text-xl text-left'>Intern - Android Developer </p>
                 </div>
             </div>
             
@@ -40,7 +40,7 @@ function Experience() {
                 </div>
                 <div>
                     <p className='text-white font-bold text-3xl text-left'>Roketin Indonesia</p>
-                    <p className='text-white text-xl text-left'>Full Time - Full Stack Developer </p>
+                    <p className='text-white text-xl text-left'>Intern - Junior Developer </p>
                 </div>
             </div>
         </div>
