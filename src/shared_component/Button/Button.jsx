@@ -1,10 +1,24 @@
 import React from 'react'
 
-function Button({text}) {
+function Button({text, onClick, type}) {
   return (
-    <div className='rounded bg-[#AE2A91] p-2 w-40'>
-        <p className=' text-white  text-1xl'>{text}</p>
-    </div>
+    <>
+      {type === "primary" && (
+         <div 
+          className='rounded bg-[#AE2A91] p-2 w-40 cursor-pointer' 
+          onClick={onClick}>
+            <p className=' text-white  text-1xl'>{text}</p>
+        </div>
+      )}
+      {type === "secondary" && (
+         <div 
+          className='rounded bg-[#595A85] p-2 w-40 cursor-pointer' 
+          onClick={onClick}>
+            <p className=' text-white  text-1xl'>{text}</p>
+        </div>
+      )}
+    </>
+   
   )
 }
 
