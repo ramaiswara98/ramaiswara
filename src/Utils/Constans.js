@@ -13,7 +13,7 @@ export const Constan = {
         description:`I developed LaunchPath Pro—a personal project leveraging ReactJS and Firebase. It's a web service designed to assist users in transforming their ideas into viable businesses. The platform systematically guides users through idea validation and business planning stages. Additionally, LaunchPath Pro offers an AI agent that generates opinions and recommendations for user ideas, assists in identifying target markets, and creates user personas.`,
         id:'launchpathpro',
         repo:'https://github.com/ramaiswara98/lauchpathpro',
-        link:null
+        link:'https://launchpathpro.vercel.app'
     },
     BERLAYAR:{
         title:'Berlayar AI',
