@@ -8,6 +8,13 @@ export const Constan = {
     
     Of course I am not perfect, but if you dare to give me an opportunity, then I will deliver what you whish, I can't promise you the output as perfect as you want, but I can promise you, that it will be the best that I can present
     `,
+    DASHBOARD:{
+        title:'Dashboard',
+        description:`This is a simple dashboard web app that I build as a task for my application as front end developer for Tyrads. This simple web app is develope base on given design and using React JS and plain css to develope.`,
+        id:'dashboard',
+        repo:'https://github.com/ramaiswara98/dashboard',
+        link:'https://dashboard-ramaiswara98.vercel.app/'
+    },
     LAUNCHPATH:{
         title:'LaunchPath Pro',
         description:`I developed LaunchPath Pro—a personal project leveraging ReactJS and Firebase. It's a web service designed to assist users in transforming their ideas into viable businesses. The platform systematically guides users through idea validation and business planning stages. Additionally, LaunchPath Pro offers an AI agent that generates opinions and recommendations for user ideas, assists in identifying target markets, and creates user personas.`,

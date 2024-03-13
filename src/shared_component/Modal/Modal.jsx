@@ -7,6 +7,7 @@ import KARIN from '../../assets/images/project/karin.png'
 import WEDDING from '../../assets/images/project/wedding.png'
 import GITHUB from '../../assets/icons/github.png';
 import WEB from '../../assets/icons/web.png'
+import DASHBOARD from '../../assets/images/project/dashboard.png'
 import { Constan } from '../../Utils/Constans';
 
 const Modal = ({ isOpen, toggle, project }) => {
@@ -50,6 +51,9 @@ const Modal = ({ isOpen, toggle, project }) => {
                         )}
                         {project.id === 'wedding' && (
                             <img src={WEDDING}/>
+                        )}
+                        {project.id === 'dashboard' && (
+                            <img src={DASHBOARD}/>
                         )}
                      
                      <div className='flex flex-row gap-6 mt-2 mb-2'>
