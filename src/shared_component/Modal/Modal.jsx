@@ -8,6 +8,9 @@ import WEDDING from '../../assets/images/project/wedding.png'
 import GITHUB from '../../assets/icons/github.png';
 import WEB from '../../assets/icons/web.png'
 import DASHBOARD from '../../assets/images/project/dashboard.png'
+import DARMA from '../../assets/images/project/darmakaryamandiri.png'
+import AEDNO from '../../assets/images/project/paymentaedno.png'
+import KHODAM from '../../assets/images/project/cekkhodam.png'
 import { Constan } from '../../Utils/Constans';
 
 const Modal = ({ isOpen, toggle, project }) => {
@@ -54,6 +57,15 @@ const Modal = ({ isOpen, toggle, project }) => {
                         )}
                         {project.id === 'dashboard' && (
                             <img src={DASHBOARD}/>
+                        )}
+                        {project.id === 'darma' && (
+                            <img src={DARMA}/>
+                        )}
+                        {project.id === 'aedno' && (
+                            <img src={AEDNO}/>
+                        )}
+                        {project.id === 'khodam' && (
+                            <img src={KHODAM}/>
                         )}
                      
                      <div className='flex flex-row gap-6 mt-2 mb-2'>

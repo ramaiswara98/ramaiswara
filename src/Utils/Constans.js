@@ -15,6 +15,27 @@ export const Constan = {
         repo:'https://github.com/ramaiswara98/dashboard',
         link:'https://dashboard-ramaiswara98.vercel.app/'
     },
+    DARMA:{
+        title:'Darma Karya Mandiri',
+        description:`The project Darma Karya Mandiri leverages technologies such as CodeIgniter4, MySQL, PHP, HTML, CSS, and Tailwind CSS to efficiently collect and manage information about trucks departing for and returning from trips. The system aims to streamline the tracking process, ensuring accurate and timely data recording for logistical operations.`,
+        id:'darma',
+        repo:'https://github.com/ramaiswara98/dkm',
+        link:'https://darmakm.com/'
+    },
+    AEDNO:{
+        title:'Payment System Aedno',
+        description:`Payment System Aedno is a project built with CodeIgniter4, MySQL, PHP, HTML, and CSS. It is designed to streamline the process of generating invoices for student class payments and to efficiently track student attendance. This system ensures accurate financial records and provides a reliable method for monitoring student participation`,
+        id:'aedno',
+        repo:'https://github.com/ramaiswara98/Invoice-system',
+        link:'https://payment-system.aedno.co'
+    },
+    KHODAM:{
+        title:'Cek Khodam Pro',
+        description:`The project Cek Khodam Pro uses ReactJS, Tailwind CSS, and Firebase to tap into a TikTok viral trend by allowing users to check their khodam, a mystical figure believed to be associated with each person. This innovative application aims to engage users by combining modern web technologies with popular cultural phenomena.`,
+        id:'khodam',
+        repo:'https://github.com/ramaiswara98/cek-khodam',
+        link:'https://cekkhodam.pro'
+    },
     LAUNCHPATH:{
         title:'LaunchPath Pro',
         description:`I developed LaunchPath Pro—a personal project leveraging ReactJS and Firebase. It's a web service designed to assist users in transforming their ideas into viable businesses. The platform systematically guides users through idea validation and business planning stages. Additionally, LaunchPath Pro offers an AI agent that generates opinions and recommendations for user ideas, assists in identifying target markets, and creates user personas.`,
