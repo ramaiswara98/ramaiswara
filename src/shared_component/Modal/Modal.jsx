@@ -14,6 +14,7 @@ import KHODAM from '../../assets/images/project/cekkhodam.png'
 import PLUGIN from '../../assets/images/project/plugin.png'
 import THEME from '../../assets/images/project/theme.png'
 import KIQS from '../../assets/images/project/kiqs.co.png'
+import Climatehack from '../../assets/images/project/climatehack.png'
 import { Constan } from '../../Utils/Constans';
 
 const Modal = ({ isOpen, toggle, project }) => {
@@ -77,6 +78,9 @@ const Modal = ({ isOpen, toggle, project }) => {
                             <img src={THEME}/>
                         )}
                         {project.id === 'kiqs' && (
+                            <img src={KIQS}/>
+                        )}
+                        {project.id === 'climatehack' && (
                             <img src={KIQS}/>
                         )}
                      

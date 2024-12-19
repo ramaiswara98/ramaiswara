@@ -64,6 +64,13 @@ export const Constan = {
         repo:null,
         link:null
     },
+    CLIMATEHACK:{
+        title:'Climatehack.io ',
+        description:`Climatehack.io is a landing page designed for an online hackathon hosted by Code for Asia in collaboration with the Singapore International Foundation. The landing page was developed using WordPress, providing an engaging and functional platform to showcase the event and its details.`,
+        id:'climatehack',
+        repo:null,
+        link:null
+    },
     BERLAYAR:{
         title:'Berlayar AI',
         description:`Berlayar AI was my project at Code for Asia. It's a website we developed using React JS, Firebase, and Django. The site serves as a social media content generator powered by AI. Our integration of the ChatGPT API enables the seamless generation of captions and images for users. It was an exciting endeavor to work on this innovative platform during my time there!`,
