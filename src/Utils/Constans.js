@@ -8,6 +8,13 @@ export const Constan = {
     
     Of course I am not perfect, but if you dare to give me an opportunity, then I will deliver what you whish, I can't promise you the output as perfect as you want, but I can promise you, that it will be the best that I can present
     `,
+    KIQS:{
+        title:'KiQs',
+        description:`This is a landing page I developed for a platform called KiQs using WordPress and the Elementor plugin. The site was built based on a Figma design provided, ensuring that the final implementation closely matched the original design while maintaining responsiveness and user-friendly functionality.`,
+        id:'kiqs',
+        repo:null,
+        link:'https://kiqs.co'
+    },
     DASHBOARD:{
         title:'Dashboard',
         description:`This is a simple dashboard web app that I build as a task for my application as front end developer for Tyrads. This simple web app is develope base on given design and using React JS and plain css to develope.`,
@@ -42,6 +49,20 @@ export const Constan = {
         id:'launchpathpro',
         repo:'https://github.com/ramaiswara98/lauchpathpro',
         link:'https://launchpathpro.vercel.app'
+    },
+    PLUGIN:{
+        title:'Wordpress Costum Plugin ',
+        description:`I developed a language selection plugin for Jumbo LMS to enhance their video management system. The platform already had videos available in multiple languages but lacked a way for users to select and display them based on their preferred language. The plugin solves this by adding a dropdown menu for language selection. When users select a language, the corresponding video dynamically updates to match their choice, providing a seamless and user-friendly experience.`,
+        id:'plugin',
+        repo:'https://github.com/ramaiswara98/Wordpress-Costume-Plugin-Media-Translate',
+        link:'https://jumbo.acktec.com.cn/courses/rofs-02-basic-service/lessons/%e9%a4%90%e5%8e%85%e7%94%a8%e8%af%ad%e5%92%8c%e6%9a%97%e5%8f%b7-restaurant-language-signals-rofs_02-2/'
+    },
+    THEME:{
+        title:'Wordpress Costum Themes ',
+        description:`I created a custom WordPress theme as part of a take-home assignment for a company. Using a Figma design provided by the company, I developed a fully functional custom theme that accurately matched the design specifications. The project demonstrated my ability to translate design mockups into a responsive and visually consistent WordPress theme.`,
+        id:'theme',
+        repo:null,
+        link:null
     },
     BERLAYAR:{
         title:'Berlayar AI',

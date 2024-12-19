@@ -11,6 +11,9 @@ import DASHBOARD from '../../assets/images/project/dashboard.png'
 import DARMA from '../../assets/images/project/darmakaryamandiri.png'
 import AEDNO from '../../assets/images/project/paymentaedno.png'
 import KHODAM from '../../assets/images/project/cekkhodam.png'
+import PLUGIN from '../../assets/images/project/plugin.png'
+import THEME from '../../assets/images/project/theme.png'
+import KIQS from '../../assets/images/project/kiqs.co.png'
 import { Constan } from '../../Utils/Constans';
 
 const Modal = ({ isOpen, toggle, project }) => {
@@ -67,11 +70,20 @@ const Modal = ({ isOpen, toggle, project }) => {
                         {project.id === 'khodam' && (
                             <img src={KHODAM}/>
                         )}
+                         {project.id === 'plugin' && (
+                            <img src={PLUGIN}/>
+                        )}
+                        {project.id === 'theme' && (
+                            <img src={THEME}/>
+                        )}
+                        {project.id === 'kiqs' && (
+                            <img src={KIQS}/>
+                        )}
                      
                      <div className='flex flex-row gap-6 mt-2 mb-2'>
                         {project.repo !== null && (
                             <div className=' cursor-pointer rounded-md gap-2  items-center px-2 py-1 justify-between flex flex-row bg-gradient-to-b from-[#18ADB3] to-70% to-[#595A85]'
-                            onClick={()=> {window.location.href = project.repo}}
+                            onClick={()=> {window.open(project.repo,'_blank')}}
                             >
                                 <img src={GITHUB} width={24}/>
                                 <p className='text-white text-sm'>Repo</p>
@@ -80,7 +92,7 @@ const Modal = ({ isOpen, toggle, project }) => {
 
                         {project.link !== null && (
                             <div className=' cursor-pointer rounded-md gap-2  items-center px-2 py-1 justify-between flex flex-row bg-gradient-to-b from-[#18ADB3] to-70% to-[#595A85]'
-                            onClick={()=> {window.location.href = project.link}}
+                            onClick={()=> {window.open(project.link,'_blank')}}
                             >
                                 <img src={WEB} width={24}/>
                                 <p className='text-white text-sm'>Visit</p>
